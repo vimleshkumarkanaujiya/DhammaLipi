@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <title>Dhammalipi</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="styles/main.css" />
+   </head>
+   <body class="subpage">
+      <!-- Header -->
+      <header id="header">
+         <div class="logo"><a href="index.html">धम्मलिपि</a></div>
+         <a href="#menu">Menu</a>
+      </header>
+      <!-- Nav -->
+      <nav id="menu">
+         <ul class="links">
+            <li><a href="index.html">Home</a></li>
+         </ul>
+      </nav>
+      <!-- One -->
+      <section id="One" class="wrapper style3">
+         <div class="inner">
+            <header class="align-center">
+               <p>Dhammalipi</p>
+               <h2>धम्मलिपि</h2>
+            </header>
+         </div>
+      </section>
+      <!-- Main -->
+      <div id="main" class="container">
+         <!-- Elements -->
+         <h2 id="elements">Devanagari to Dhammalipi</h2>
+         <div class="row uniform">
+            <!-- Break -->
+            <div class="12u$">
+               <textarea name="text" id="Devanagari" name="Devanagari" rows="6" style="font-family: NotoSansDevanagari-Regular;"></textarea>
+            </div>
+            <div class="12u$">
+               <input type="submit" onclick="DevanagariToDhammaLipi()" value="Search" class="fit"><br>
+               <p id="dl" style="font-size: 30px; color: rgb(78, 51, 51); font-family: NotoSansBrahmi-Regular;">
+               <hr/>
+            </div>
+            &nbsp; &nbsp;
+         </div>
+         <h2 id="elements">Dhammalipi to Devanagari</h2>
+         <div class="row uniform">
+            <!-- Break -->
+            <div class="12u$">
+               <textarea name="text" id="Brahmi" name="Brahmi" rows="6" style="font-family: NotoSansBrahmi-Regular;"></textarea>
+            </div>
+            <!-- Break -->
+            <div class="12u$">
+               <input type="submit" onclick="DhammaLipiToDevanagari()" value="Search" class="fit">
+               <p id="dn" style="font-size: 30px; color: rgb(78, 51, 51); font-family: NotoSansDevanagari-Regular">
+               <hr/>
+            </div>
+            &nbsp; &nbsp;
+         </div>
+         <div class="row 200%">
+            <div class="6u 12u$(medium)">
+               <!-- Text stuff -->
+               <h3><b>Dhammalipi</b></h3>
+               <p>Dhammalipi script refers to the writing system used to transcribe Buddhist texts, 
+                  particularly those written in Pali or other related languages.
+               </p>
+               <hr />
+               <h3><b>धम्मलिपि</b></h3>
+               <p>
+                  धम्मलिपि उस लेखन प्रणाली को संदर्भित करता है जिसका उपयोग बौद्ध ग्रंथो को लिखने के लिए किया जाता था,
+                  खासकर उन पाठों के लिए जो पालि या अन्य संबंधित भाषाओं में लिखे गए होते थे।
+               </p>
+               <hr/>
+               <h4>Some Words</h4>
+               <center><b>अचिरं वतयं कायो, पठविं अधिसेस्सति <br>
+                  छुद्दो अपेतविञ्ञाणो, निरत्थवं कलिङगरं।</b>
+               </center>
+               <br>
+               <center>धम्मपद - चित्तवग्गो - 9</center>
+               <br>
+               <!-- Hiddi Blockquote -->
+               <h3>अर्थ</h3>
+               <blockquote>अहो! यह तुच्छ शरीर शीघ्र ही चेतनारहित होकर निरर्थक काठ के टुकड़े की भांति पृथ्वी पर पड़ा रहेगा</blockquote>
+               <center><b>Achiraṁ Vatayaṁ Kāyo, Paṭhaviṁ Adhisessati
+                  Chuddo Apetaviññāṇo, Niratthavaṁ Kaliṅgaraṁ</b>
+               </center>
+               <br>
+               <center>Dhammapada - Chitta Vaggo - 9</center>
+               <br>
+               <!-- English Blockquote -->
+               <h3>Meaning</h3>
+               <blockquote>Hey! This insignificant body will soon become unconscious and lie on the earth like a useless piece of wood.</blockquote>
+            </div>
+         </div>
+      </div>
+      <!-- Footer -->
+      <footer id="footer">
+      </footer>
+      <!-- Scripts -->
+      <script src="scripts/jquery.min.js"></script>
+      <script src="scripts/jquery.scrollex.min.js"></script>
+      <script src="scripts/skel.min.js"></script>
+      <script src="scripts/util.js"></script>
+      <script src="scripts/main.js"></script>
+      <script src="scripts/transliterate.js"></script>
+   </body>
+</html>
